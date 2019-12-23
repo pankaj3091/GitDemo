@@ -1,0 +1,13 @@
+ Volume in drive C is Windows
+ Volume Serial Number is A884-A832
+
+ Directory of C:\Users\Lenovo\DevOps\GitProject
+
+12/23/2019  06:53 PM    <DIR>          .
+12/23/2019  06:53 PM    <DIR>          ..
+12/17/2019  08:20 PM                 2 file.txt
+12/17/2019  08:43 PM                33 file2.txt
+12/23/2019  06:53 PM                 0 file3.txt
+12/17/2019  08:18 PM             2,085 index.html
+               4 File(s)          2,120 bytes
+               2 Dir(s)  410,647,175,168 bytes free
