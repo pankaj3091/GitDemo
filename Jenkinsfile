@@ -1,8 +1,25 @@
-node{
-  stage('SCM Checkout'){
-  git 'https://github.com/pankaj3091/GitDemo'
+pipeline{
+  agent any
+  stages{
+      stage('Compile Stage'){
+        steps{
+          withMaven(maven :maven-3.6.1){
+            sh 'mvn clean compile'
+          }
+        }
     }
-    stage('Compile-Package'){
-    sh 'mvn package'
+    stage('Testing Stage'){
+    steps{
+          withMaven(maven :maven-3.6.1){
+            sh 'mvn clean compile'
+          }
+        }    
+      }
+    stage('Deployment Stage'){
+      steps{
+          withMaven(maven :maven-3.6.1){
+            sh 'mvn deploy'
+          }
+      }
     }
   }
