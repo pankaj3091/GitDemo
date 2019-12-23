@@ -1,0 +1,14 @@
+ Volume in drive C is Windows
+ Volume Serial Number is A884-A832
+
+ Directory of C:\Users\Lenovo\DevOps\gitDemo
+
+12/23/2019  06:42 PM    <DIR>          .
+12/23/2019  06:42 PM    <DIR>          ..
+11/08/2019  09:40 PM               396 f1.txt
+12/23/2019  06:42 PM                 0 f2.txt
+11/08/2019  09:29 PM               349 m1.txt
+11/08/2019  09:39 PM               396 m2.txt
+12/19/2019  10:34 PM               158 POM.xml
+               5 File(s)          1,299 bytes
+               2 Dir(s)  410,668,621,824 bytes free
